@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/customerdb
-    username: postgres
-    password: root
+    url: jdbc:postgresql://dpg-csmmdm2j1k6c73dl1hd0-a.oregon-postgres.render.com:5432/customerdb_fzpz  # URL de la base de datos en Render
+    username: customerdb_fzpz_user
+    password: 9r7juO1fHyagmMAhtTtoK2Iv5VvYxiTa
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
